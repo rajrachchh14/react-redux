@@ -2,10 +2,19 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">
+          Example textarea
+        </label>
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Default input"
+          aria-label="default input example"
+        />
+      </div>
+    </>
   );
 }
 
